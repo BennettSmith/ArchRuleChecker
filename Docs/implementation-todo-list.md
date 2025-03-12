@@ -21,13 +21,13 @@
 - [X] Run tests to verify they pass
 
 ## Iteration 4: File Discovery
-- [ ] Create `FileDiscovery.swift` with finder and classifier
-- [ ] Implement Swift file finder
-- [ ] Implement UseCase file classifier
-- [ ] Create `FileDiscoveryTests.swift`
-- [ ] Write test for Swift file discovery
-- [ ] Write test for UseCase detection
-- [ ] Run tests to verify they pass
+- [X] Create `FileDiscovery.swift` with finder and classifier
+- [X] Implement Swift file finder
+- [X] Implement UseCase file classifier
+- [X] Create `FileDiscoveryTests.swift`
+- [X] Write test for Swift file discovery
+- [X] Write test for UseCase detection
+- [X] Run tests to verify they pass
 
 ## Iteration 5: SwiftSyntax Analyzer
 - [ ] Create `UseCaseAnalyzer.swift` with visitor pattern
