@@ -30,16 +30,16 @@
 - [X] Run tests to verify they pass
 
 ## Iteration 5: SwiftSyntax Analyzer
-- [ ] Create `UseCaseAnalyzer.swift` with visitor pattern
-- [ ] Define `ArchitectureError` enum
-- [ ] Implement `UseCaseVisitor` class
-- [ ] Implement `UseCaseAnalyzer` class with static analyze function
-- [ ] Create `UseCaseAnalyzerTests.swift`
-- [ ] Write test for non-violating UseCase
-- [ ] Write test for violating UseCase
-- [ ] Write test for Result-wrapped entity
-- [ ] Write test for Response types
-- [ ] Run tests to verify they pass
+- [X] Create `UseCaseAnalyzer.swift` with visitor pattern
+- [X] Define `ArchitectureError` enum
+- [X] Implement `UseCaseVisitor` class
+- [X] Implement `UseCaseAnalyzer` class with static analyze function
+- [X] Create `UseCaseAnalyzerTests.swift`
+- [X] Write test for non-violating UseCase
+- [X] Write test for violating UseCase
+- [X] Write test for Result-wrapped entity
+- [X] Write test for Response types
+- [X] Run tests to verify they pass
 
 ## Iteration 6: Integrating Everything in the Main Command
 - [ ] Update `main.swift` to load configuration
