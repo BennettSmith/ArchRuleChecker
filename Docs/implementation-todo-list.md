@@ -1,15 +1,15 @@
 # Architecture Rule Checker: Implementation Todo List
 
 ## Iteration 1: Setting Up the Project
-- [ ] Create the project directory `ArchRuleChecker`
-- [ ] Initialize the Swift package as executable
-- [ ] Update `Package.swift` with dependencies (SwiftSyntax, ArgumentParser, Swift Testing)
-- [ ] Build the project to verify dependencies
+- [X] Create the project directory `arch-rule-checker`
+- [X] Initialize the Swift package as executable
+- [X] Update `Package.swift` with dependencies (SwiftSyntax, ArgumentParser, Swift Testing)
+- [X] Build the project to verify dependencies
 
 ## Iteration 2: Creating a Basic Command Line Interface
-- [ ] Create main.swift with CLI structure using ArgumentParser
-- [ ] Define `--source-path` and `--config-path` options
-- [ ] Run the CLI to verify it works
+- [X] Create main.swift with CLI structure using ArgumentParser
+- [X] Define `--source-path` and `--config-path` options
+- [X] Run the CLI to verify it works
 
 ## Iteration 3: Creating a Configuration Parser
 - [ ] Create `Configuration.swift` with model and loader
