@@ -5,14 +5,13 @@ import PackageDescription
 
 let package = Package(
     name: "arch-rule-checker",
-    platforms: [.macOS(.v13)],
+    platforms: [.macOS(.v14), .iOS(.v17)],
     products: [
         .executable(name: "ArchRuleChecker", targets: ["ArchRuleChecker"]),
     ],
     dependencies: [
         .package(url: "https://github.com/apple/swift-syntax.git", from: "509.0.0"),
         .package(url: "https://github.com/apple/swift-argument-parser.git", from: "1.2.0"),
-        .package(url: "https://github.com/apple/swift-testing.git", from: "0.5.0"),
     ],
     targets: [
         .executableTarget(
@@ -27,7 +26,6 @@ let package = Package(
             name: "ArchRuleCheckerTests",
             dependencies: [
                 "ArchRuleChecker",
-                .product(name: "Testing", package: "swift-testing")
             ]
         ),
     ]

@@ -12,13 +12,13 @@
 - [X] Run the CLI to verify it works
 
 ## Iteration 3: Creating a Configuration Parser
-- [ ] Create `Configuration.swift` with model and loader
-- [ ] Implement default configuration
-- [ ] Create `ConfigurationTests.swift` using Swift Testing
-- [ ] Write test for default configuration
-- [ ] Write test for non-existent configuration file
-- [ ] Write test for loading valid configuration
-- [ ] Run tests to verify they pass
+- [X] Create `Configuration.swift` with model and loader
+- [X] Implement default configuration
+- [X] Create `ConfigurationTests.swift` using Swift Testing
+- [X] Write test for default configuration
+- [X] Write test for non-existent configuration file
+- [X] Write test for loading valid configuration
+- [X] Run tests to verify they pass
 
 ## Iteration 4: File Discovery
 - [ ] Create `FileDiscovery.swift` with finder and classifier
