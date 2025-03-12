@@ -7,7 +7,7 @@ let package = Package(
     name: "arch-rule-checker",
     platforms: [.macOS(.v13)],
     products: [
-        .executable(name: "arch-rule-checker", targets: ["ArchRuleChecker"]),
+        .executable(name: "ArchRuleChecker", targets: ["ArchRuleChecker"]),
     ],
     dependencies: [
         .package(url: "https://github.com/apple/swift-syntax.git", from: "509.0.0"),
