@@ -42,28 +42,28 @@
 - [X] Run tests to verify they pass
 
 ## Iteration 6: Integrating Everything in the Main Command
-- [ ] Update `main.swift` to load configuration
-- [ ] Add code to find Swift files
-- [ ] Add code to analyze UseCase files
-- [ ] Implement results reporting
-- [ ] Test the full pipeline
+- [X] Update `main.swift` to load configuration
+- [X] Add code to find Swift files
+- [X] Add code to analyze UseCase files
+- [X] Implement results reporting
+- [X] Test the full pipeline
 
 ## Iteration 7: Create a Sample Test Project
-- [ ] Create directory structure for test project
-- [ ] Create model files (`UserEntity.swift`)
-- [ ] Create violating use case (`GetUserUseCase.swift`)
-- [ ] Create compliant use case (`ListUsersUseCase.swift`)
-- [ ] Create repository interface (`UserRepository.swift`)
-- [ ] Create repository implementation (`UserRepositoryImpl.swift`)
-- [ ] Run the tool on the sample project to verify violations are found
+- [X] Create directory structure for test project
+- [X] Create model files (`UserEntity.swift`)
+- [X] Create violating use case (`GetUserUseCase.swift`)
+- [X] Create compliant use case (`ListUsersUseCase.swift`)
+- [X] Create repository interface (`UserRepository.swift`)
+- [X] Create repository implementation (`UserRepositoryImpl.swift`)
+- [X] Run the tool on the sample project to verify violations are found
 
 ## Iteration 8: Create a Swift Package Manager Plugin
-- [ ] Update `Package.swift` to include plugin target and product
-- [ ] Create `plugin.swift` in Plugins directory
-- [ ] Implement CommandPlugin protocol
-- [ ] Add configuration file handling
-- [ ] Implement target-specific analysis
-- [ ] Test the plugin with `swift package check-architecture`
+- [X] Update `Package.swift` to include plugin target and product
+- [X] Create `plugin.swift` in Plugins directory
+- [X] Implement CommandPlugin protocol
+- [X] Add configuration file handling
+- [X] Implement target-specific analysis
+- [X] Test the plugin with `swift package check-architecture`
 
 ## Iteration 9: Extending with Additional Rules
 - [ ] Update `ArchitectureError` enum with new error types

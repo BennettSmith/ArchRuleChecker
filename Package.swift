@@ -8,6 +8,7 @@ let package = Package(
     platforms: [.macOS(.v14), .iOS(.v17)],
     products: [
         .executable(name: "ArchRuleChecker", targets: ["ArchRuleChecker"]),
+        .plugin(name: "ArchRuleCheckerPlugin", targets: ["ArchRuleCheckerPlugin"])
     ],
     dependencies: [
         .package(url: "https://github.com/apple/swift-syntax.git", from: "509.0.0"),
@@ -20,6 +21,19 @@ let package = Package(
                 .product(name: "SwiftSyntax", package: "swift-syntax"),
                 .product(name: "SwiftParser", package: "swift-syntax"),
                 .product(name: "ArgumentParser", package: "swift-argument-parser")
+            ]
+        ),
+        .plugin(
+            name: "ArchRuleCheckerPlugin",
+            capability: .command(
+                intent: .custom(
+                    verb: "check-architecture",
+                    description: "Verifies code adheres to architectural rules"
+                ),
+                permissions: [.writeToPackageDirectory(reason: "To output report files")]
+            ),
+            dependencies: [
+                .target(name: "ArchRuleChecker")
             ]
         ),
         .testTarget(
