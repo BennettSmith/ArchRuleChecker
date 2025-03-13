@@ -1,6 +1,6 @@
 import Foundation
 
-class UserEntity {
+class UserEntity: Entity {
     let id: String
     let name: String
     

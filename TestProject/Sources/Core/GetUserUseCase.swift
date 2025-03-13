@@ -1,6 +1,6 @@
 import Foundation
 
-class GetUserUseCase {
+class GetUserUseCase: UseCase {
     private let userRepository: UserRepository
     
     init(userRepository: UserRepository) {
